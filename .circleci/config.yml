@@ -7,7 +7,7 @@ jobs:
     steps:
       - checkout
       - run: yarn install
-      - run: cd android && ./gradlew assembleDebug
+      - run: cd android && chmod +x gradlew && ./gradlew assembleDebug
 
 workflows:
   version: 2
