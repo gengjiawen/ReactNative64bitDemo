@@ -1,6 +1,15 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 
 buildscript {
+
+    ext {
+        buildToolsVersion = "26.0.3"
+        minSdkVersion = 16
+        compileSdkVersion = 26
+        targetSdkVersion = 26
+        supportLibVersion = "26.1.0"
+    }
+
     repositories {
         jcenter()
         maven {
@@ -29,12 +38,4 @@ allprojects {
             name 'Google'
         }
     }
-}
-
-ext {
-    buildToolsVersion = "26.0.3"
-    minSdkVersion = 16
-    compileSdkVersion = 26
-    targetSdkVersion = 26
-    supportLibVersion = "26.1.0"
 }
