@@ -1,4 +1,6 @@
 # React Native 64bit demo
+[![CircleCI](https://circleci.com/gh/gengjiawen/ReactNative64bitDemo.svg?style=svg)](https://circleci.com/gh/gengjiawen/ReactNative64bitDemo)
+
 This is a showcase for 64bit support for react native. Only tested for 0.57.
 
 If you want your react native project support 64, you can check the change in android folder,
